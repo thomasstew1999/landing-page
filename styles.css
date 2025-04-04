@@ -3,13 +3,15 @@ body {
 
 * {
     font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
 }
 .header {
     display: flex;
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 500px;
+    padding: 20px 500px 0px 500px;
     margin-bottom: 0px;
 }
 .left, .right {
@@ -48,17 +50,19 @@ li a {
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
+    margin-top: 25px;
 }
 .container1 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin: 0px;
+    margin-bottom: 10px;
 }
 .container1 p {
     color: #E5E7EB;
     font-size: 18px;
-    padding: 0px 020px 0px 0px; 
+    padding: 0px 20px 0px 0px; 
+    margin-bottom: 10px;
 }
 .divimg {
     width: 900px;
