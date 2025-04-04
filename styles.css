@@ -1,0 +1,165 @@
+body {
+}
+
+* {
+    font-family: 'Roboto';
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 500px;
+    margin-bottom: 0px;
+}
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 16px;
+}
+li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header .left {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.container1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 100px 500px;
+    align-items: center;
+}
+.container2 {
+    display: flex;
+    padding: 100xpx 500px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.container1 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0px;
+}
+.container1 p {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 020px 0px 0px; 
+}
+.divimg {
+    width: 900px;
+    height: 250px;
+}
+
+.container1 button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    outline: none;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 10px;
+    border:3px solid #3882F6
+}
+
+.info {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    text-align: center;
+    width:106px;
+    align-self: center;
+    padding: 0px;
+}
+
+.container2 h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 600px;
+    margin: 0px;
+}
+.quote, .signature {
+    color: #1f2937
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+.signature {
+    align-self: flex-end;
+}
+.container4 {
+    padding: 100px 500px;
+    margin: 0px;
+}
+
+.box {
+    background-color:#3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left2 p, .left2 h3 {
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.left2 h3 {
+}
+
+.right2 button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    padding: 10px 30px;
+}
+.footer {
+    background-color:#1F2937;
+    color:#F9FAF8;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 25px 0px;
+}
